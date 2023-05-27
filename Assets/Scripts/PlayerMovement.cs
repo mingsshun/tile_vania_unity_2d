@@ -9,11 +9,13 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] float runSpeed = 10f;
     Vector2 moveInput;
     Rigidbody2D rigidbody2d;
+    Animator animator;
     
     // Start is called before the first frame update
     void Start()
     {
         rigidbody2d = GetComponent<Rigidbody2D>();
+        animator = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -31,6 +33,8 @@ public class PlayerMovement : MonoBehaviour
     {
         Vector2 playerVelocity = new Vector2(moveInput.x * runSpeed, rigidbody2d.velocity.y);
         rigidbody2d.velocity = playerVelocity;
+
+        animator.SetBool("isRunning", Mathf.Abs(rigidbody2d.velocity.x) > Mathf.Epsilon);
     }
     private void FlipSprite()
     {

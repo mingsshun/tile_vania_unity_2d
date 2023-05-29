@@ -212,6 +212,11 @@ MonoBehaviour:
         m_Calls: []
   m_LegacyBlendHint: 0
   m_ComponentOwner: {fileID: 1172317449}
+--- !u!1 &477504207 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2493217017980077057, guid: 1dd83dec96a463a4691e0e05b080b6c2, type: 3}
+  m_PrefabInstance: {fileID: 2493217019563599150}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -6801,29 +6806,9 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 2141364532, guid: 1dd83dec96a463a4691e0e05b080b6c2, type: 3}
-      propertyPath: m_GravityScale
-      value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 2141364532, guid: 1dd83dec96a463a4691e0e05b080b6c2, type: 3}
-      propertyPath: m_CollisionDetection
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2141364533, guid: 1dd83dec96a463a4691e0e05b080b6c2, type: 3}
-      propertyPath: m_Material
-      value: 
-      objectReference: {fileID: 6200000, guid: c7bdc4960c162aa4689c1438b8035916, type: 2}
     - target: {fileID: 2493217017980077057, guid: 1dd83dec96a463a4691e0e05b080b6c2, type: 3}
       propertyPath: m_Name
       value: Ginger(Player)
-      objectReference: {fileID: 0}
-    - target: {fileID: 2493217017980077057, guid: 1dd83dec96a463a4691e0e05b080b6c2, type: 3}
-      propertyPath: m_Layer
-      value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 2493217017980077057, guid: 1dd83dec96a463a4691e0e05b080b6c2, type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2493217017980077086, guid: 1dd83dec96a463a4691e0e05b080b6c2, type: 3}
       propertyPath: m_RootOrder
@@ -6869,10 +6854,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5993758675668020781, guid: 1dd83dec96a463a4691e0e05b080b6c2, type: 3}
-      propertyPath: jumpSpeed
-      value: 25
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1dd83dec96a463a4691e0e05b080b6c2, type: 3}
 --- !u!4 &2493217019563599151 stripped
@@ -6885,3 +6866,29 @@ Animator:
   m_CorrespondingSourceObject: {fileID: 2493217017980077084, guid: 1dd83dec96a463a4691e0e05b080b6c2, type: 3}
   m_PrefabInstance: {fileID: 2493217019563599150}
   m_PrefabAsset: {fileID: 0}
+--- !u!61 &2493217019563599163
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 477504207}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0

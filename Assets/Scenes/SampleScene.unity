@@ -460,7 +460,9 @@ GameObject:
   - component: {fileID: 742033307}
   - component: {fileID: 742033311}
   - component: {fileID: 742033310}
-  m_Layer: 0
+  - component: {fileID: 742033312}
+  - component: {fileID: 742033313}
+  m_Layer: 11
   m_Name: Goober (Enemy)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -548,7 +550,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 742033306}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.63, z: 0}
+  m_LocalPosition: {x: 0, y: 0.452, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -565,7 +567,7 @@ Animator:
   m_GameObject: {fileID: 742033306}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 8b90d0495bc94b444a5123815dbdd1d8, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -589,9 +591,48 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.043866605, y: -0.08773318}
-  m_Size: {x: 0.7368005, y: 0.7368005}
+  m_Offset: {x: 0.03990832, y: -0.13127431}
+  m_Size: {x: 0.6338851, y: 0.6338851}
   m_Direction: 0
+--- !u!114 &742033312
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 742033306}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 58d5d0dfbe7e46c4ea6d7af31739e7df, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveSpeed: 1
+--- !u!61 &742033313
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 742033306}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.34016806, y: -0.22353894}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 0.90625}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.12528229, y: 0.7053889}
+  m_EdgeRadius: 0
 --- !u!1 &882326575
 GameObject:
   m_ObjectHideFlags: 0

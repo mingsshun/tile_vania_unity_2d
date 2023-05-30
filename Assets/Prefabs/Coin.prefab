@@ -137,7 +137,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c23abd46743674045910831509c1ab2f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoinPickupSFX: {fileID: 8300000, guid: ca74bc65e0a27c345a0b0992f8eea042, type: 3}
+  coinPickupSFX: {fileID: 8300000, guid: ca74bc65e0a27c345a0b0992f8eea042, type: 3}
+  pointsForCoinPickup: 100
 --- !u!82 &1255920716
 AudioSource:
   m_ObjectHideFlags: 0

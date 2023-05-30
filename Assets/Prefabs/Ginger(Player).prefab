@@ -102,7 +102,7 @@ SpriteRenderer:
   m_SortingLayer: 7
   m_SortingOrder: 0
   m_Sprite: {fileID: -993133061, guid: 69f78b21fd2f8ba4393025b06cc3f3d3, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.32772753, g: 0.9056604, b: 0.11448912, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -195,6 +195,8 @@ MonoBehaviour:
   jumpSpeed: 25
   climbSpeed: 5
   deathKick: {x: 20, y: 20}
+  bullet: {fileID: 5994377691543151277, guid: a56e761919de16440bbf5858292364a4, type: 3}
+  gun: {fileID: 8419567139294079595}
 --- !u!61 &2493217019563599163
 BoxCollider2D:
   m_ObjectHideFlags: 0

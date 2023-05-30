@@ -464,7 +464,7 @@ GameObject:
   - component: {fileID: 742033313}
   m_Layer: 11
   m_Name: Goober (Enemy)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7237,24 +7237,19 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5993758675668020781, guid: 1dd83dec96a463a4691e0e05b080b6c2, type: 3}
-      propertyPath: gun
-      value: 
-      objectReference: {fileID: 2493217019563599152}
-    - target: {fileID: 5993758675668020781, guid: 1dd83dec96a463a4691e0e05b080b6c2, type: 3}
-      propertyPath: bullet
-      value: 
-      objectReference: {fileID: 5994377691543151277, guid: a56e761919de16440bbf5858292364a4, type: 3}
+    - target: {fileID: 8419567139294079595, guid: 1dd83dec96a463a4691e0e05b080b6c2, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8419567139294079595, guid: 1dd83dec96a463a4691e0e05b080b6c2, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1dd83dec96a463a4691e0e05b080b6c2, type: 3}
 --- !u!4 &2493217019563599151 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2493217017980077086, guid: 1dd83dec96a463a4691e0e05b080b6c2, type: 3}
-  m_PrefabInstance: {fileID: 2493217019563599150}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &2493217019563599152 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 8419567139294079595, guid: 1dd83dec96a463a4691e0e05b080b6c2, type: 3}
   m_PrefabInstance: {fileID: 2493217019563599150}
   m_PrefabAsset: {fileID: 0}
 --- !u!95 &2493217019563599157 stripped
